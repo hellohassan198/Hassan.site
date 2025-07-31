@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Hassan | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Muhammad Hassan - Full Stack Developer Portfolio" />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      html { scroll-behavior: smooth; }
+      body { line-height: 1.5; }
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex-shrink-0">
+            <a href="#hero" class="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors">MH</a>
+          </div>
+          <div class="hidden md:flex gap-8">
+            <a href="#hero" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
+            <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a>
+            <a href="#experience" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Experience</a>
+            <a href="#education" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Education</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Projects</a>
+            <a href="#skills" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Skills</a>
+            <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="pt-20">
+      <!-- Hero -->
+      <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-transparent to-emerald-600/10"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+            <span class="bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">MUHAMMAD</span><br />
+            <span class="text-gray-800">HASSAN</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Full Stack Developer specializing in modern web technologies
+          </p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
+            <div class="flex items-center gap-2 text-gray-600">
+              <span class="text-blue-600">📍</span>
+              <span>Garden Town, Gujranwala, Pakistan</span>
+            </div>
+            <div class="flex items-center gap-2 text-gray-600">
+              <span class="text-emerald-600">✉️</span>
+              <a href="mailto:hello.hassan198@gmail.com" class="hover:text-emerald-600 transition-colors">hello.hassan198@gmail.com</a>
+            </div>
+          </div>
+          <a href="#about" class="inline-block mt-4 text-blue-600 hover:text-emerald-600 transition-colors text-3xl">↓</a>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">About Me</h2>
+          <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 shadow-lg">
+            <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto">
+              Highly skilled Full Stack Developer with expertise in frontend (HTML, CSS, JavaScript, React) and backend (PHP, MySQL) development. Experienced in creating responsive, user-friendly web applications, managing server-side logic, and integrating databases. Committed to writing efficient code and staying updated with industry trends.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Experience</h2>
+          <div class="space-y-12">
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Frontend Web Developer</h3>
+                  <p class="text-blue-600 font-semibold">BFS</p>
+                </div>
+                <div class="flex items-center gap-4 text-gray-600 mt-2 md:mt-0">
+                  <span>🗓️ March 2023 - Present</span>
+                  <span>🌍 Remote</span>
+                </div>
+              </div>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>Designed and implemented responsive, user-centric web interfaces using HTML, CSS, and JavaScript, enhancing overall user experience and engagement.</li>
+                <li>Optimized web applications, reducing load times by 30%.</li>
+                <li>Collaborated with backend developers to integrate APIs, ensuring seamless data flow and improved frontend performance.</li>
+              </ul>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Freelance Developer</h3>
+                  <p class="text-blue-600 font-semibold">Fiverr & Upwork</p>
+                </div>
+                <div class="flex items-center gap-4 text-gray-600 mt-2 md:mt-0">
+                  <span>🗓️ Feb 2023 - Present</span>
+                  <span>🌍 Remote</span>
+                </div>
+              </div>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>Achieved a 5-star rating by maintaining strong client relationships and delivering projects on time.</li>
+                <li>Delivered high-quality, customized web development projects to a diverse international client base, enhancing their digital presence.</li>
+              </ul>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Backend Developer</h3>
+                  <p class="text-blue-600 font-semibold">Magic Threads</p>
+                </div>
+                <div class="flex items-center gap-4 text-gray-600 mt-2 md:mt-0">
+                  <span>🗓️ Jan 2021 - 2022</span>
+                  <span>🌍 Remote</span>
+                </div>
+              </div>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>Managed project timelines, reducing delivery times by 30%.</li>
+                <li>Designed and managed databases, optimizing performance and data retrieval processes.</li>
+                <li>Developed and maintained backend systems, improving application efficiency and reliability.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Education</h2>
+          <div class="bg-gradient-to-br from-blue-50 to-emerald-50 rounded-2xl p-8 shadow-lg">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="bg-blue-600 p-3 rounded-full">
+                <span class="text-white text-xl">🎓</span>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold text-gray-900">Bachelor of Software Engineering</h3>
+                <p class="text-xl text-blue-600 font-semibold">Gift University</p>
+              </div>
+              <div class="flex items-center gap-2 text-gray-600">
+                <span>🗓️</span>
+                <span class="text-sm">Dec 2022 - Present</span>
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              I am pursuing a Bachelor's degree in Software Engineering at Gift University, focusing on practical applications in web development. My studies involve applying academic knowledge to real-world projects, aligning with industry best practices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Projects</h2>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-Commerce Platform" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">E-Commerce Platform</h3>
+                <p class="text-gray-700 mb-4">A full-stack e-commerce solution built with React, Node.js, and MySQL. Features include user authentication, product catalog, shopping cart, and payment integration.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">React</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Node.js</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">MySQL</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Express</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Stripe API</span>
+                </div>
+                <a href="https://github.com/hellohassan198/fixit-app.git" target="_blank" class="text-blue-600 hover:underline mr-4">GitHub</a>
+
+              </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Task Management App" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Task Management App</h3>
+                <p class="text-gray-700 mb-4">A responsive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">React</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">TypeScript</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Firebase</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Tailwind CSS</span>
+                </div>
+                <a  target="_blank" class="text-blue-600 hover:underline mr-4">GitHub</a>
+
+              </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Weather Dashboard" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Weather Dashboard</h3>
+                <p class="text-gray-700 mb-4">A modern weather application with location-based forecasts, interactive maps, and detailed weather analytics.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">JavaScript</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">HTML5</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">CSS3</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Weather API</span>
+                </div>
+                <a  target="_blank" class="text-blue-600 hover:underline mr-4">GitHub</a>
+                
+              </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portfolio Website" class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Portfolio Website</h3>
+                <p class="text-gray-700 mb-4">A responsive portfolio website showcasing projects and skills with smooth animations and modern design.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">React</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">TypeScript</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Tailwind CSS</span>
+                  <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded text-xs">Framer Motion</span>
+                </div>
+                <a  target="_blank" class="text-blue-600 hover:underline mr-4">GitHub</a>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Skills & Qualifications</h2>
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fade-in-up">
+              <h3 class="text-xl font-bold mb-4">Technical Skills</h3>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>Project Management</li>
+                <li>Data Entry</li>
+                <li>Figma UI/UX Design</li>
+                <li>Graphic Design</li>
+              </ul>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fade-in-up">
+              <h3 class="text-xl font-bold mb-4">Languages</h3>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>English</li>
+                <li>Urdu</li>
+                <li>Spanish</li>
+              </ul>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fade-in-up">
+              <h3 class="text-xl font-bold mb-4">Certifications</h3>
+              <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                <li>Professional Engineer (PE) License</li>
+                <li>Project Management Professional (PMP)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-900">Get In Touch</h2>
+          <form class="max-w-2xl mx-auto bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 shadow-lg space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Name</label>
+                <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required />
+              </div>
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" required />
+              </div>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-2">Subject</label>
+              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Subject" required />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-2">Message</label>
+              <textarea class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded hover:bg-emerald-600 transition-colors">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <p class="flex items-center justify-center gap-2 text-gray-300">
+            Made with <span class="text-red-500">♥</span> by Muhammad Hassan
+          </p>
+          <p class="text-gray-400 text-sm mt-2">© 2025 All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
